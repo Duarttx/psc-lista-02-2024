@@ -1,0 +1,25 @@
+programa {
+  real preco
+  real litros
+  real pagar
+  funcao inicio() {
+    escreva("escreva o preço do litro de combustível:")
+    leia (preco)
+    escreva ("escreva o n�mero de litros vendidos:")
+    leia(litros)
+    escreva ("o preço a se pagar é:")
+    pagar = (preco * litros)
+    escreva (pagar)
+  }
+}
+/* $$$ Portugol Studio $$$ 
+ * 
+ * Esta seção do arquivo guarda informações do Portugol Studio.
+ * Você pode apagá-la se estiver utilizando outro editor.
+ * 
+ * @POSICAO-CURSOR = 306; 
+ * @PONTOS-DE-PARADA = ;
+ * @SIMBOLOS-INSPECIONADOS = ;
+ * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
+ * @FILTRO-ARVORE-TIPOS-DE-SIMBOLO = variavel, vetor, matriz, funcao;
+ */
