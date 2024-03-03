@@ -1,0 +1,9 @@
+programa {
+  real n
+  funcao inicio() {
+    escreva ("informe um número:")
+    leia (n)
+    escreva("o numero informado é: ")
+    escreva(n)
+    }
+}
